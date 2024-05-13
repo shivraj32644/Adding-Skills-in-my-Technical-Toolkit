@@ -35,12 +35,12 @@ Tip: The default value for int is 0, and the default value for string is "".
 
 
 ## Find the Length of an Array
-    The len() function is used to find the length of an array:
+The len() function is used to find the length of an array:
 
-    ```
+```
     arr1 := [4]string{"Volvo", "BMW", "Ford"}
     arr2 := [...]int{1,2,3,4,5,6}
 
     fmt.Println(len(arr1)) // 4
     fmt.Println(len(arr2)) // 6
-    ```
+```
